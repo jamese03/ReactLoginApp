@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -8,19 +5,73 @@
 }
 
 .App-header {
+  text-align: center;
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Navbar{
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  padding: 10px;
 }
+.LoginForm{
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  margin: 10px;
+  padding: 10px;
+}
+.NewUser{
+  text-align: left;
+  font-size: calc(5px + 2vmin);
+  margin: 20px;
+}
+.SubmitButton{
+  font-size: 25px;
+}
+.Password{
+  margin: 25px;
+}
+.Username{
+  margin: 10px;
+}
+
+.Email{
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li {
+  font-size: 30px;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
 
 @keyframes App-logo-spin {
   from {
